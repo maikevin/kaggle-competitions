@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(source venv/Scripts/activate)",
+      "Bash(pip install:*)",
+      "Bash(venv/Scripts/python.exe -m pip:*)",
+      "Bash(uvicorn:*)",
+      "Bash(curl:*)",
+      "Bash(python -m json.tool:*)",
+      "Bash(echo:*)",
+      "Bash(python:*)",
+      "Bash(npm run web:*)",
+      "Bash(npx expo start:*)",
+      "Bash(npx expo install react-native-web react-dom @expo/metro-runtime)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
